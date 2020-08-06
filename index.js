@@ -6,6 +6,8 @@ const sharp = require('sharp')
 const fs = require('fs')
 const FileType = require('file-type')
 
+const ROOM_ID = '01bf5836-0900-413f-a858-3bcc5911b51b.3'
+
 const FILE_URL = './test.jpg'
 const FILE_W = 1000
 const FILE_H = 1000
@@ -35,7 +37,7 @@ async function main() {
 
   eventHandler.apply(client)
   await client.connect().catch(console.error)
-  await client.joinRoom('01bf5836-0900-413f-a858-3bcc5911b51b.3', {
+  await client.joinRoom(ROOM_ID, {
     username: makeid(6),
   })
 
