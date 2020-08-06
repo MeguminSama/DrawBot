@@ -1,6 +1,6 @@
 # DrawBot
 
-![ShitCode Warning](https://img.shields.io/badge/Is%20ShitCode-YES-green)
+![ShitCode Warning](https://img.shields.io/badge/is%20shitcode-yes-green)
 
 ## A rudimentary [drawaria](https://drawaria.online) bot
 
