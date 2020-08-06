@@ -1,5 +1,7 @@
 # DrawBot
 
+![ShitCode Warning](https://img.shields.io/badge/Is%20ShitCode-YES-green)
+
 ## A rudimentary [drawaria](https://drawaria.online) bot
 
 ### Installation
